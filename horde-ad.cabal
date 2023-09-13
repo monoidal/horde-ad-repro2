@@ -1,0 +1,12 @@
+cabal-version:      3.6
+name:               horde-ad
+version:            0.1.0.0
+build-type:         Simple
+
+library horde-ad-simplified
+    exposed-modules:  TensorClass
+
+    build-depends:
+        base >= 4.14
+      , ghc-typelits-natnormalise
+
